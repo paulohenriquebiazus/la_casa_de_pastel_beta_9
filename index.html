@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La casa de Pastel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+
+    <img class="logo" src="imagens/logo" alt="logotipo">
+</header>
+
+<h1>Informações do Cliente:</h1>
+
+<fieldset>
+    <form id="FormPastel" action="#" method="post">
+        <label for="nome">Nome do Cliente: </label>
+        <input type="text" name="Nome" id="nome" placeholder="Seu Nome">
+
+        <label for="cpf">CPF: </label>
+        <input type="text" name="cpf" id="cpf" placeholder="Seu CPF">
+        <br>
+
+        <label for="endereco">Endereço: </label>
+        <input type="text" name="endereço" id="endereco" placeholder="Seu Endereço">
+</fieldset>
+
+<h1>Combo Personalizado:</h1>
+
+<fieldset>
+<p>Montar Combo:</p>
+
+        <label for="cardapio">Pastel: </label>
+        <select id="cardapio" name="cardapio"></select>
+
+        <label for="cardapioww">Outro Pastel: </label>
+        <select id="cardapioww" name="cardapioww"></select>
+        <br>
+
+        <label for="tamanho">Tamanho: </label>
+        <select id="tamanho" name="tamanho"></select>
+        <br>
+        <label for="acompanhantee">Acompanhante: </label>
+        <select id="acompanhantee" name="acompanhantee"></select>
+</fieldset>
+
+<h1>Combos Feitos:</h1>
+
+<fieldset>
+
+<p>Combo Casal:</p>
+
+        <label for="combo_1_pastel_1">Primeiro Pastel: </label>
+        <input type="text" id="combo_1_pastel_1" name="combo_1_pastel_1" value="Pastel de Carne com Cheddar" readonly>
+
+        <label for="combo_1_pastel_1_tamanho">Tamanho: </label>
+        <input type="text" id="combo_1_pastel_1_tamanho" name="combo_1_pastel_1_tamanho" value="Médio" readonly>
+
+        <br>
+
+        <label for="combo_1_pastel_2">Segundo Pastel: </label>
+        <input type="text" id="combo_1_pastel_2" name="combo_1_pastel_2" value="Pastel de Carne com Cheddar" readonly>
+
+        <label for="combo_1_pastel_2_tamanho">Tamanho: </label>
+        <input type="text" id="combo_1_pastel_2_tamanho" name="combo_1_pastel_2_tamanho" value="Médio" readonly>
+
+        <br>
+
+        <label for="combo_1_pastel_3">Terceiro Pastel: </label>
+        <input type="text" id="combo_1_pastel_3" name="combo_1_pastel_3" value="Pastel de Chocolate" readonly>
+
+        <label for="combo_1_pastel_3_tamanho">Tamanho: </label>
+        <input type="text" id="combo_1_pastel_3_tamanho" name="combo_1_pastel_3_tamanho" value="Pequeno" readonly>
+
+        <br>
+
+        <label for="combo_1_pastel_4">Quarto Pastel: </label>
+        <input type="text" id="combo_1_pastel_4" name="combo_1_pastel_4" value="Pastel de Chocolate" readonly>
+
+        <label for="combo_1_pastel_4_tamanho">Tamanho: </label>
+        <input type="text" id="combo_1_pastel_4_tamanho" name="combo_1_pastel_4_tamanho" value="Pequeno" readonly>
+
+        <br>
+
+        <label for="combo_1_acompanhamento">Acompanhamento: </label>
+        <input type="text" id="combo_1_acompanhamento" name="combo_1_acompanhamento" value="Refrigerante" readonly>
+
+</fieldset>
+
+        <br>
+
+<fieldset>
+
+<p>Combo Sextou:</p>
+
+        <label for="combo_2_pastel_1">Primeiro Pastel: </label>
+        <input type="text" id="combo_2_pastel_1" name="combo_2_pastel_1" value="Pastel de Queijo" readonly>
+
+        <label for="combo_2_pastel_1_tamanho">Tamanho: </label>
+        <input type="text" id="combo_2_pastel_1_tamanho" name="combo_2_pastel_1_tamanho" value="Grande" readonly>
+
+        <br>
+
+        <label for="combo_2_pastel_2">Segundo Pastel: </label>
+        <input type="text" id="combo_2_pastel_2" name="combo_2_pastel_2" value="Pastel de Carne com Cheddar" readonly>
+
+        <label for="combo_2_pastel_2_tamanho">Tamanho: </label>
+        <input type="text" id="combo_2_pastel_2_tamanho" name="combo_2_pastel_2_tamanho" value="Grande" readonly>
+
+        <br>
+
+        <label for="combo_2_acompanhamento">Acompanhamento: </label>
+        <input type="text" id="combo_2_acompanhamento" name="combo_2_acompanhamento" value="Refrigerante" readonly>
+
+</fieldset>
+
+        <br>
+
+<fieldset>
+
+<p>Combo Mamute:</p>
+
+        <label for="combo_3_pastel_1">Primeiro Pastel: </label>
+        <input type="text" id="combo_3_pastel_1" name="combo_3_pastel_1" value="Pastel de Frango com Catupiri" readonly>
+
+        <label for="combo_3_pastel_1_tamanho">Tamanho: </label>
+        <input type="text" id="combo_3_pastel_1_tamanho" name="combo_3_pastel_1_tamanho" value="Gigante" readonly>
+
+        <br>
+
+        <label for="combo_3_pastel_2">Segundo Pastel: </label>
+        <input type="text" id="combo_2_pastel_2" name="combo_2_pastel_2" value="Pastel de Chocolate com Morango" readonly>
+
+        <label for="combo_3_pastel_2_tamanho">Tamanho: </label>
+        <input type="text" id="combo_3_pastel_2_tamanho" name="combo_3_pastel_2_tamanho" value="Gigante" readonly>
+
+        <br>
+
+        <label for="combo_3_acompanhamento">Acompanhamento: </label>
+        <input type="text" id="combo_2_acompanhamento" name="combo_3_acompanhamento" value="Caldo de Cana" readonly>
+
+</fieldset>
+        <br><br>
+        <label for="entrega">Entrega ou Busca: </label>
+        <select name="entrega" id="entrega"></select>
+        <br><br>
+<h1>Pagamento:</h1>
+<fieldset>
+            <legend>Forma de Pagamento: </legend>
+
+            <label>
+                <input type="radio" name="pagamento" value="Pix" id="pagamentow">
+                Pix
+            </label>
+
+            <label>
+                <input type="radio" name="pagamento" value="Debito" id="pagamentow">
+                Débito
+            </label>
+
+            <label>
+                <input type="radio" name="pagamento" value="Credito" id="pagamentow">
+                Crédito
+            </label>
+
+            <label>
+                <input type="radio" name="pagamento" value="Dinheiro" id="pagamentow">
+                Dinheiro
+            </label>
+
+
+</fieldset>
+        
+
+        <hr>
+        <h2>Informações Importantes</h2>
+
+        <label for="enderecoo">Endereço do Estabelecimento: </label>
+        <input type="text" id="enderecoo" name="endereçoo" value="Rua Lisboa, 435 - Jardim Panorama" readonly>
+        
+        <br><br>
+        <br>
+
+        <label for="numeroo">Número de Telefone do Estabelecimento: </label>
+        <input type="text" id="numeroo" name="numeroo" value="(45)9914501514" readonly>
+    </form>
+         <hr> 
+         <div id="relatorio"></div>
+         <br><br><br>
+         <button onclick="gerarRelatorio()">Gerar relatório do Pedido</button>
+    <script src="script.js"></script>
+
+    <br><br><br>
+    <button onclick="window.print()">Gerar PDF do relatório</button>
+</main>
+</body>
+</html>
