@@ -1,8 +1,43 @@
-main{
+@media print {
+  body * {
+    visibility: hidden;   /* Esconde tudo */
+  }
+  #relatorio, #relatorio * {
+    visibility: visible;  /* Mostra só o relatório */
+  }
+  #relatorio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+body{
     background-color: rgb(0, 0, 0);
-    height: 2500px;
+    height: 2000px;
     color: rgb(255, 255, 255);
 }
+
 .logo{
     height: 270px;
+}
+
+/* ============================================================
+   REGRAS PARA IMPRESSÃO (PDF)
+   ------------------------------------------------------------
+   Quando o usuário clicar em "Gerar PDF", o navegador abre a
+   tela de impressão. Aqui escondemos botões e deixamos visível
+   apenas o conteúdo do carrinho.
+   ============================================================ */
+
+@media print {
+  .no-print { display: none !important; } /* Some com botões */
+  body * { visibility: hidden; }          /* Esconde todo o resto */
+  #area_relatorio, #area_relatorio * {
+    visibility: visible;                  /* Mostra só o carrinho com total */
+  }
+  #area_relatorio {
+    position: absolute; left: 0; top: 0; width: 100%;
+  }
 }
