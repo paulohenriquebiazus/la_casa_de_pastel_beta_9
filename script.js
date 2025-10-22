@@ -1,23 +1,23 @@
 const cardapio_loja = [
-    { id: "Carne", pastel: " Pastel de Carne - R$7,50 ", preco: 7.50                  },
-    { id: "Frango", pastel: " Pastel de Frango - R$7,50 ", preco: 7.50                },
-    { id: "Chocolate", pastel: " Pastel de Chocolate - R$10,00 ", preco: 10.00          },
-    { id: "ChocolateMorango", pastel: " Pastel de Chocolate com Morango - R$10,00 ", preco: 10.00   },
-    { id: "Queijo", pastel: " Pastel de Queijo - R$7,50 ", preco: 7.50                },
-    { id: "CarneQueijo", pastel: " Pastel de Carne com Queijo - R$7,50 ", preco: 7.50 },
-    { id: "Cheddar", pastel: " Pastel de Carne com Cheddar - R$10,00 ", preco: 10.00    },
-    { id: "Cheddar", pastel: " Pastel de Frango com Catupiri - R$10,00 ", preco: 10.00    }
+    { id: "Carne", pastel: " Pastel de Carne - R$3,99 ", preco: 3.99                  },
+    { id: "Frango", pastel: " Pastel de Frango - R$3,99 ", preco: 3.99                },
+    { id: "Chocolate", pastel: " Pastel de Chocolate - R$6,99 ", preco: 6.99          },
+    { id: "ChocolateMorango", pastel: " Pastel de Chocolate com Morango - R$6,99 ", preco: 6.99   },
+    { id: "Queijo", pastel: " Pastel de Queijo - R$3,99 ", preco: 3.99                },
+    { id: "CarneQueijo", pastel: " Pastel de Carne com Queijo - R$3,99 ", preco: 3.99 },
+    { id: "Cheddar", pastel: " Pastel de Carne com Cheddar - R$6,99 ", preco: 6.99    },
+    { id: "Cheddar", pastel: " Pastel de Frango com Catupiri - R$6,99 ", preco: 6.99    }
 ];
 
 const cardapio_loja_2 = [
-    { id: "Carne", pastel: " Pastel de Carne - R$7,50 ", preco: 7.50                  },
-    { id: "Frango", pastel: " Pastel de Frango - R$7,50 ", preco: 7.50                },
-    { id: "Chocolate", pastel: " Pastel de Chocolate - R$10,00 ", preco: 10.00          },
-    { id: "ChocolateMorango", pastel: " Pastel de Chocolate com Morango - R$10,00 ", preco: 10.00   },
-    { id: "Queijo", pastel: " Pastel de Queijo - R$7,50 ", preco: 7.50                },
-    { id: "CarneQueijo", pastel: " Pastel de Carne com Queijo - R$7,50 ", preco: 7.50 },
-    { id: "Cheddar", pastel: " Pastel de Carne com Cheddar - R$10,00 ", preco: 10.00    },
-    { id: "Cheddar", pastel: " Pastel de Frango com Catupiri - R$10,00 ", preco: 10.00    },
+    { id: "Carne", pastel: " Pastel de Carne - R$3,99 ", preco: 3.99                  },
+    { id: "Frango", pastel: " Pastel de Frango - R$3,99 ", preco: 3.99                },
+    { id: "Chocolate", pastel: " Pastel de Chocolate - R$6,99 ", preco: 6.99          },
+    { id: "ChocolateMorango", pastel: " Pastel de Chocolate com Morango - R$6,99 ", preco: 6.99   },
+    { id: "Queijo", pastel: " Pastel de Queijo - R$3,99 ", preco: 3.99                },
+    { id: "CarneQueijo", pastel: " Pastel de Carne com Queijo - R$3,99 ", preco: 3.99 },
+    { id: "Cheddar", pastel: " Pastel de Carne com Cheddar - R$6,99 ", preco: 6.99    },
+    { id: "Cheddar", pastel: " Pastel de Frango com Catupiri - R$6,99 ", preco: 6.99    },
     { id: "Nada", pastel: " Nada ", preco: 0.00                               }
 ];
 
